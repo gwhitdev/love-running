@@ -115,6 +115,53 @@ main {
     color: white;
 }
 
+#reasons {
+    margin: 20px auto;
+    width: 90%; 
+}
+
+#reasons  h2 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#reasons  div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+#benefits  p {
+    padding: 0 20px ;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -171,6 +218,8 @@ main {
         width: 300px;
         right: 50px;
     }
+
+   
 }
 
 /* Large devices (laptops and desktops and larger 922px and up) */
